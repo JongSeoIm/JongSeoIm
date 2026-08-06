@@ -1,26 +1,8 @@
-# ImJongSeo
+<h2 align="center">Tech Stack</h2>
 
-의료IT공학과 임종서입니다.
+<h3 align="center">Languages</h3>
 
-> 모델을 학습시키는 데서 끝내지 않고, 분석 결과가 실제 화면에서 사용되는 과정까지 구현하고 있습니다.
-
-`Medical AI` · `Deep Learning` · `Web & App` · `Database`
-
-## 지금까지 다뤄본 것
-
-| 데이터 | 구현 경험 |
-| --- | --- |
-| MRI | 해마 세그멘테이션, 특징 추출, 알츠하이머병 분류 |
-| ECG | 신호 전처리, CNN 모델 비교, 개인식별 및 인증 |
-| 음성 | Android 음성 인식과 TTS를 이용한 발음 학습 기능 |
-| 피부 병변 이미지 | MobileNet 기반 7개 클래스 분류와 Top-3 결과 제공 |
-| Web · App | AI 추론 결과를 API, 데이터베이스, 사용자 화면과 연동 |
-
-## Tech Stack
-
-### Languages
-
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -29,18 +11,18 @@
   <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
 </p>
 
-### AI · Data
+<h3 align="center">AI · Data</h3>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/XGBoost-EB5B29?style=flat-square&logoColor=white" alt="XGBoost" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
 </p>
 
-### Web · App · Database
+<h3 align="center">Web · App · Database</h3>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
@@ -50,6 +32,8 @@
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
 </p>
+
+<br>
 
 ## Projects
 
