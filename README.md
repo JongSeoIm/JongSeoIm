@@ -1,4 +1,4 @@
-<h1 align="center">임종서 | Im Jongseo</h1>
+<h1 align="center">임종서 | ImJongSeo</h1>
 <h3 align="center">의료IT공학과 · Medical AI · Web Development</h3>
 
 <p align="center">
