@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:0F766E&height=220&section=header&text=ImJongSeo%27s%20GitHub&fontSize=54&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Medical%20AI%20%C2%B7%20Web%20Development&descSize=20&descAlignY=58)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:0F766E&height=220&section=header&text=JongSeo%20Im%27s%20GitHub&fontSize=54&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Medical%20AI%20%C2%B7%20Web%20Development&descSize=20&descAlignY=58)
 
 <h2 align="center">Tech Stack</h2>
 
@@ -46,7 +46,7 @@
 - 기간: 2024년 2학기
 - 역할: QA · 요구사항 및 시험 문서 작성 · 단위/통합 시험 결과 정리
 - 기술: Java · Firebase Authentication · Firestore · SpeechRecognizer · TextToSpeech
-- [프로젝트 저장소](https://github.com/Qhuzi/ClearTalk)
+- [프로젝트 저장소](https://github.com/JongSeoIm/ClearTalk)
 
 ### HIPPIE Memora
 
@@ -55,7 +55,7 @@
 - 기간: 2025.09–2025.12
 - 역할: ENG1 · 해마 세그멘테이션 · ICV 및 특징 추출 · XGBoost 모델 · Web 연동
 - 기술: Python · PyTorch · TensorFlow · XGBoost · FastAPI · MySQL
-- [프로젝트 저장소](https://github.com/Qhuzi/HIPPIE_Memora)
+- [프로젝트 저장소](https://github.com/JongSeoIm/HIPPIE_Memora)
 
 ### ECG 기반 개인식별 및 인증 시스템
 
@@ -64,7 +64,7 @@
 - 기간: 2026.03–2026.06
 - 주요 구현: ECG 전처리 · CNN 계열 모델 비교 · 임베딩 기반 인증 · Flask 및 Watch 연동
 - 기술: Python · TensorFlow · PyTorch · Flask · SQLite · Java · Wear OS
-- [프로젝트 저장소](https://github.com/Qhuzi/26_Capstone)
+- [프로젝트 저장소](https://github.com/JongSeoIm/26_Capstone)
 
 ### 피부암 진단 예측 보조 시스템
 
@@ -75,10 +75,10 @@
 
 ### Other Projects
 
-- [React Stock](https://github.com/Qhuzi/React_Stock) — Finnhub API 기반 미국 주식 정보 대시보드
-- [WorkGrid](https://github.com/Qhuzi/WorkGrid) — 일정·프로젝트·가계부를 함께 관리하는 웹 플래너
+- [React Stock](https://github.com/JongSeoIm/React_Stock) — Finnhub API 기반 미국 주식 정보 대시보드
+- [WorkGrid](https://github.com/JongSeoIm/WorkGrid) — 일정·프로젝트·가계부를 함께 관리하는 웹 플래너
 
 ## Contact
 
 - Email: [serendipty1401@gmail.com](mailto:serendipty1401@gmail.com)
-- GitHub: [github.com/Qhuzi](https://github.com/Qhuzi)
+- GitHub: [github.com/JongSeoIm](https://github.com/JongSeoIm)
