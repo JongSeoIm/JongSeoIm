@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:0F766E&height=220&section=header&text=JongSeo%20Im%27s%20GitHub&fontSize=54&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Medical%20AI%20%C2%B7%20Web%20Development&descSize=20&descAlignY=58)
+![JongSeo Im GitHub profile header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:0F766E&height=220&section=header&text=JongSeo%20Im%27s%20GitHub&fontSize=54&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Medical%20AI%20%C2%B7%20Web%20Development&descSize=20&descAlignY=58)
 
 <h2 align="center">Tech Stack</h2>
 
