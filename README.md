@@ -1,90 +1,83 @@
-![JongSeo Im GitHub profile header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:0F766E&height=220&section=header&text=JongSeo%20Im%27s%20GitHub&fontSize=54&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Medical%20AI%20%C2%B7%20Web%20Development&descSize=20&descAlignY=58)
+# 임종서 | JongSeo Im
 
-<h2 align="center">Tech Stack</h2>
+의료·헬스케어 데이터를 AI 모델과 실제 사용 흐름으로 연결하는 프로젝트를 수행해 왔습니다.
 
-<h3 align="center">Languages</h3>
+Android 키오스크와 발음 연습 프로젝트에서 UI 구현과 QA를 경험했으며, 이후 MRI 해마 분석과 ECG 생체인식 프로젝트에서 데이터 전처리, 모델 구현, API와 Web 연동을 담당했습니다.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C/C++" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
-</p>
+- 관심 분야 — Medical AI · Biomedical Signal Processing · Web Application
+- Email — [serendipty1401@gmail.com](mailto:serendipty1401@gmail.com)
 
-<h3 align="center">AI · Data</h3>
+## Medical AI & Healthcare Projects
 
-<p align="center">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/XGBoost-EB5B29?style=flat-square&logoColor=white" alt="XGBoost" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-</p>
+### ECG 기반 심장 지문 생성 및 개인 식별
 
-<h3 align="center">Web · App · Database</h3>
+`2026.03–2026.06 · 5인 팀 · ENG2`
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
-</p>
+Galaxy Watch에서 수집한 ECG를 딥러닝 임베딩으로 변환하고 등록 신호와 비교하는 Wear OS·Web·AI 통합 인증 프로토타입입니다.
 
-<h3 align="center">Tools</h3>
+- ECG-ID 신호의 필터링, R-peak 검출과 심박 구간 분할 파이프라인 구현
+- ResNet1D, Plain CNN1D, BiLSTM, CNN-BiLSTM 학습·평가 흐름 구성
+- 256차원 임베딩과 cosine similarity 기반 등록·인증 로직 구현
+- Galaxy Watch 수집 앱, Flask API, SQLite와 Web 대시보드 연결
+- 네 모델 비교 후 Plain CNN1D를 Web 인증 흐름의 임베딩 모델로 적용
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-</p>
-
-<br>
-
-## Projects
-
-### ClearTalk
-
-> 조음장애 사용자의 발음 학습과 교정을 지원하는 Android 애플리케이션
-
-- 기간: 2024년 2학기
-- 역할: QA · 요구사항 및 시험 문서 작성 · 단위/통합 시험 결과 정리
-- 기술: Java · Firebase Authentication · Firestore · SpeechRecognizer · TextToSpeech
-- [프로젝트 저장소](https://github.com/JongSeoIm/ClearTalk)
+[프로젝트 자세히 보기 →](https://github.com/JongSeoIm/26_Capstone)
 
 ### HIPPIE Memora
 
-> MRI 영상에서 해마를 분할하고 특징을 추출해 알츠하이머병 분류를 보조하는 Web·AI 프로토타입
+`2025.09–2025.12 · 6인 팀 · ENG1`
 
-- 기간: 2025.09–2025.12
-- 역할: ENG1 · 해마 세그멘테이션 · ICV 및 특징 추출 · XGBoost 모델 · Web 연동
-- 기술: Python · PyTorch · TensorFlow · XGBoost · FastAPI · MySQL
-- [프로젝트 저장소](https://github.com/JongSeoIm/HIPPIE_Memora)
+MRI 영상에서 해마를 분할하고 정량 특징과 CN/AD 모델 출력을 Web 화면에서 확인하는 연구·교육용 프로토타입입니다.
 
-### ECG 기반 개인식별 및 인증 시스템
+- HippMapp3r 기반 좌·우 해마 분할 흐름 구성
+- ICV와 해마 부피, 비대칭 지수 및 정규화 특징 계산
+- 10개 특징을 사용하는 XGBoost 학습·추론 코드 구성
+- AI 처리 결과를 FastAPI, MySQL과 Web Viewer에 연결
 
-> Galaxy Watch에서 측정한 ECG를 심장지문으로 활용하는 딥러닝 개인식별·인증 프로토타입
+[프로젝트 자세히 보기 →](https://github.com/JongSeoIm/HIPPIE_Memora)
 
-- 기간: 2026.03–2026.06
-- 주요 구현: ECG 전처리 · CNN 계열 모델 비교 · 임베딩 기반 인증 · Flask 및 Watch 연동
-- 기술: Python · TensorFlow · PyTorch · Flask · SQLite · Java · Wear OS
-- [프로젝트 저장소](https://github.com/JongSeoIm/26_Capstone)
+### ClearTalk
 
-### 피부암 진단 예측 보조 시스템
+`2024년 2학기 · 5인 팀 · QA`
 
-> 피부 병변 이미지를 7개 클래스로 분류하고 Top-3 예측 확률을 제공하는 진단 보조 프로젝트
+기준 단어 듣기, Android 음성 인식과 반복 학습을 연결한 발음 연습 애플리케이션입니다.
 
-- 기간: 2025년 1학기
-- 기술: TensorFlow · MobileNet · Firebase · Android
+- 요구사항 분석서와 요구사항 심사서 작성
+- 위험관리 및 품질관리 계획 수립
+- 단위시험과 통합시험 계획 및 결과 정리
+- 팀 구현 기능과 개인 QA 담당 범위를 분리해 문서화
 
-### Other Projects
+[프로젝트 자세히 보기 →](https://github.com/JongSeoIm/ClearTalk)
 
-- [React Stock](https://github.com/JongSeoIm/React_Stock) — Finnhub API 기반 미국 주식 정보 대시보드
-- [WorkGrid](https://github.com/JongSeoIm/WorkGrid) — 일정·프로젝트·가계부를 함께 관리하는 웹 플래너
+## Other Projects
 
-## Contact
+| 프로젝트 | 내용 | 주요 작업 |
+| --- | --- | --- |
+| [NUGUJU](https://github.com/JongSeoIm/DSC_NUGUJU) | 시니어 사용자를 위한 단계형 Android 키오스크 | 클릭형 UI 프로토타입, Kotlin 주문 흐름과 장바구니 구현 |
+| [React Stock](https://github.com/JongSeoIm/React_Stock) | Finnhub 기반 미국 주식 정보 대시보드 | Next.js API Route, 종목 검색·차트·관심 종목 |
+| [WorkGrid](https://github.com/JongSeoIm/WorkGrid) | SQLite 기반 로컬 우선 개인 플래너 | 일정·프로젝트·반복 일정과 월간 달력 구현 |
 
-- Email: [serendipty1401@gmail.com](mailto:serendipty1401@gmail.com)
-- GitHub: [github.com/JongSeoIm](https://github.com/JongSeoIm)
+## Technologies
+
+**AI · Data**<br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+<img src="https://img.shields.io/badge/XGBoost-EB5B29?style=flat-square" alt="XGBoost">
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter">
+
+**Backend · Database**<br>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
+<img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
+
+**Web · App**<br>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111" alt="React">
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" alt="JavaScript">
+<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android">
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
+<img src="https://img.shields.io/badge/Wear_OS-4285F4?style=flat-square&logo=wearos&logoColor=white" alt="Wear OS">
